@@ -40,15 +40,21 @@
 #### 7.创建Cordova项目
 #### 8.为Cordova项目添加android平台
 #### 9.修改cordova项目的编译配置文件config.xml
-   文件中添加下面的内容
+   
+
+
+
+---
+```go
+文件中添加下面的内容
     <content src="index.html" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-
-
+```
+---
 
 #### 10.拷贝编译好的vue3项目(dist下所有文件)到cordova项目的www目录下
 #### 11.编译cordova项目
